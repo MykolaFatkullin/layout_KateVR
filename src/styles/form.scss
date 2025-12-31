@@ -114,6 +114,8 @@
   }
 
   &__textarea {
+    resize: none;
+
     height: 15px;
     border: 0;
     border-bottom: 1px solid #2f2f2f;

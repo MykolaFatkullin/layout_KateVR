@@ -72,6 +72,8 @@
         width: 84px;
         height: 84px;
         margin-bottom: 22px;
+
+        @include hover(transform, scale(1.1));
       }
 
       @include on-big-desktop {
@@ -85,6 +87,7 @@
     max-height: 100%;
     padding-bottom: 50px;
     .more-info {
+      pointer-events: all;
       transform: translateY(0);
       opacity: 1;
     }
